@@ -1,0 +1,53 @@
+# Core Optimization and Mathematical Programming
+cvxpy>=1.4.0
+pulp>=2.7.0
+ortools>=9.7.0
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Machine Learning and Predictive Modeling
+scikit-learn>=1.3.0
+tensorflow>=2.13.0
+torch>=2.0.0
+
+# Data Manipulation and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization and Dashboard
+plotly>=5.15.0
+dash>=2.11.0
+dash-bootstrap-components>=1.4.0
+matplotlib>=3.7.0
+
+# Financial and Economic Modeling
+quantlib>=1.29.0
+
+# Geospatial Analysis
+geopandas>=0.13.0
+folium>=0.14.0
+shapely>=2.0.0
+
+# Web Framework and API
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Configuration and Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Database and Storage
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+
+# Testing and Validation
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Logging and Monitoring
+structlog>=23.1.0
+
+# Utilities
+tqdm>=4.65.0
+click>=8.1.0
+rich>=13.4.0 

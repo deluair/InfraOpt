@@ -1,0 +1,150 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a small script that fetches files from
+#  the git repository, builds an executable, and deletes the files created
+#  by the build process. Then the user commits the executable to git.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE-specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Simulation data and results
+data/generated/
+data/processed/
+results/
+*.json
+*.csv
+*.html
+*.log
+
+# Sensitive files
+*.pem
+*.key
+credentials.json
+secrets.yml
+.env*
+! .env.example
+
+# PyBuilder
+target/
+
+# Pyre type checker
+.pyre/
+
+# InfraOpt specific
+# Data files
+data/raw/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+*.html
+*.pdf
+
+# Configuration files with sensitive data
+config/local.yaml
+config/secrets.yaml
+
+# API keys and sensitive data
+.env.local
+.env.production
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Simulation results
+simulation_output/
+*.pkl
+*.h5 

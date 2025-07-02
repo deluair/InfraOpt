@@ -1,0 +1,44 @@
+# InfraOpt Simulation Configuration
+# This file contains the main configuration parameters for the simulation
+
+# Simulation parameters
+simulation_time_horizon: 365  # days
+time_step_hours: 1
+random_seed: 42
+
+# Data center parameters
+num_data_centers: 10
+data_center_types:
+  - hyperscale
+  - enterprise
+  - edge
+
+# Workload parameters
+num_workloads: 20
+workload_types:
+  - training
+  - inference
+  - research
+  - commercial
+
+# Optimization parameters
+optimization_objectives:
+  - cost
+  - energy
+  - performance
+optimization_timeout_seconds: 300
+optimization_tolerance: 1e-6
+
+# Risk assessment parameters
+risk_simulations: 1000
+confidence_level: 0.95
+
+# Economic parameters
+inflation_rate: 0.03
+interest_rate: 0.05
+carbon_tax_rate: 50.0
+
+# Performance parameters
+parallel_processing: true
+max_workers: 4
+cache_results: true 
