@@ -16,7 +16,7 @@ def setup_logging(
     level: str = "INFO",
     log_file: Optional[str] = None,
     log_format: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-) -> None:
+) -> logging.Logger:
     """
     Set up logging configuration for the application.
     
@@ -24,6 +24,9 @@ def setup_logging(
         level: Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
         log_file: Optional file path for logging
         log_format: Format string for log messages
+        
+    Returns:
+        Configured logger instance for the root logger.
     """
     # Create logs directory if it doesn't exist
     if log_file and not os.path.exists(os.path.dirname(log_file)):
@@ -43,6 +46,8 @@ def setup_logging(
     logging.getLogger("matplotlib").setLevel(logging.WARNING)
     logging.getLogger("numpy").setLevel(logging.WARNING)
     logging.getLogger("pandas").setLevel(logging.WARNING)
+    
+    return logging.getLogger()
 
 
 def get_logger(name: str) -> logging.Logger:

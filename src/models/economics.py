@@ -255,4 +255,28 @@ SUPPLY_CHAIN_CONFIGS = {
         supplier_reliability=0.85,
         geopolitical_risk=0.15
     )
+}
+
+# Defines the operational cost per hour for different GPU types.
+GPU_HOURLY_COST = {
+    "H100": 2.50,  # Approximate cost for H100
+    "A100": 1.50,  # Approximate cost for A100
+    "V100": 0.75,  # Approximate cost for V100
+    "RTX4090": 0.40, # Approximate cost for RTX4090
+}
+
+# Defines the electricity cost in $/kWh for different geographic locations.
+ELECTRICITY_COST_PER_KWH = {
+    "us-east-1": 0.12,
+    "us-west-2": 0.10,
+    "eu-central-1": 0.18,
+    "asia-pacific-1": 0.15,
+}
+
+# Defines the Power Usage Effectiveness (PUE) for different locations.
+PUE_BY_LOCATION = {
+    "us-east-1": 1.15,
+    "us-west-2": 1.20,
+    "eu-central-1": 1.12,
+    "asia-pacific-1": 1.25,
 } 
